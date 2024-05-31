@@ -107,8 +107,6 @@ module.exports = {
       ]
     }),
 
-    new BundleAnalyzerPlugin(),
-
     new CompressionWebpackPlugin({
       filename: '[path][base].gz[query]',
       algorithm: 'gzip',
